@@ -35,7 +35,7 @@ Should contain inside a form:
     - Status of task (default to not started)
     - Save / edit / delete / update button
 
-##### Create Project Page
+##### Project Page
 
 Should contain:
 
