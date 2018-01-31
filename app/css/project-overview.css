@@ -25,19 +25,12 @@ body {
     margin-top: 30px;
 }
 
+.project-tasks-container {
+	display: flex;
+}
+
 .draggable {
-  z-index: 100;
   margin-bottom: 20px;
-}
-
-.test {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.test .row, .test .droppable-container {
-  height: 100%;
 }
 
 .droppable-container:first-child {
@@ -45,11 +38,12 @@ body {
 }
 
 .droppable-container {
+	height: inherit;
   border-right: 1px solid lightgrey;
   margin-bottom: 20px;
 }
 
-.droppable {
+.droppable-container .droppable {
   height: 100%;
 }
 

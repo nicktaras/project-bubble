@@ -12,8 +12,8 @@ Should contain:
     - Add project button
     - App title
     - Project tiles
-    - Tiles should contain: image, title and status 
-    
+    - Tiles should contain: image, title and status
+
 ##### Create Project Page
 
 Should contain:
@@ -22,16 +22,16 @@ Should contain:
     - Title
     - Three columns: not started, in progress and done
     - Progress / timeline bar
-    - Tasks should be drag and dropable 
-    
+    - Tasks should be drag and droppable
+
 ##### Add / Edit Task
 
 Should contain inside a form:
 
     - Name
     - Developer
-    - Time required / estimate 
-    - Icons eg. bug, research etc. 
+    - Time required / estimate
+    - Icons eg. bug, research etc.
     - Status of task (default to not started)
     - Save / edit / delete / update button
 
@@ -45,12 +45,11 @@ Should contain:
     - Name of project
     - Project photo
     - Save / edit / delete
-    
+
 ##### Create log in page
 
 Should contain:
 
-    - Sign in 
+    - Sign in
     - Sign up
     - Forgot password
-    
