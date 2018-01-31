@@ -5,6 +5,18 @@ Project Bubble is an app for managing projects.
 
 ### Plan of Action
 
+Tasks:
+
+- [Easy] CSS: Add hand cursor to drag and drop items (easiest task).
+- [Medium] html: Add a form to the page edit-task.html, with the same fields as the 'Add new task' modal.
+- [Hard] Html: (a bit tricky, but if you understand how 'Add new task' works you will complete this). New edit modal
+- Bonus - Open button - link to open page html file
+
+Steps to do the harder task:
+part 1: project-overview.html - Copy the html for the modal made for 'Add new task'
+part 2: paste it into the page next to the 'Add new task modal'
+part 3: add a click event, similar to how the 'Add new task modal' works, but it should open when someone clicks edit task.
+
 ##### Create home page
 
 Should contain:
