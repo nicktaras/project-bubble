@@ -64,9 +64,10 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="test">
+      <div class="row">
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 droppable-container">
           <div class="droppable">
             <div class="thumbnail draggable no-select">
                 <i class="media-object glyphicon glyphicon-qrcode pull-right"></i>
@@ -80,7 +81,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 droppable-container">
           <div class="droppable">
             <div class="thumbnail draggable no-select">
                 <i class="media-object glyphicon glyphicon-xbt pull-right"></i>
@@ -94,7 +95,7 @@
           </div>
         </div>
 
-        <div class="col-sm-4">
+        <div class="col-sm-4 droppable-container">
           <div class="droppable">
             <div class="thumbnail draggable">
                 <i class="media-object glyphicon glyphicon-headphones pull-right"></i>
@@ -107,10 +108,15 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
 </div>
 
-<footer>This is the footer</footer>
+<div class="container">
+  <div class="row">
+    <footer>This is the footer</footer>
+  </div>
+</div>
 
 <script
   src="http://code.jquery.com/jquery-3.3.1.min.js"
@@ -130,7 +136,8 @@
 $( function() {
 
   $( ".draggable" ).draggable({
-      revert: true
+    "zIndex": 1000,
+    "revert": true
   });
 
   $( ".droppable" ).droppable({

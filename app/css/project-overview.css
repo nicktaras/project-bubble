@@ -1,3 +1,19 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  height: 100%;
+}
+
 .project-item {
     border: 1px solid grey;
     margin: 3px;
@@ -10,19 +26,31 @@
 }
 
 .draggable {
-  margin: 4px;
-  height: 180px;
-  width: 207px;
   z-index: 100;
   margin-bottom: 20px;
 }
 
+.test {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.test .row, .test .droppable-container {
+  height: 100%;
+}
+
+.droppable-container:first-child {
+  border-left: 1px solid lightgrey;
+}
+
+.droppable-container {
+  border-right: 1px solid lightgrey;
+  margin-bottom: 20px;
+}
+
 .droppable {
-  height: 193px;
-  border-radius: 4px;
-  background: white;
-  border: 2px dashed #a0d3f7;
-  cursor: move;
+  height: 100%;
 }
 
 /* - could be used to highlight selected item - .ui-state-highlight */
