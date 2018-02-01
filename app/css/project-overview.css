@@ -31,14 +31,18 @@ body {
 
 .draggable {
   margin-bottom: 20px;
+    cursor: -webkit-grab;
 }
+
+..touch_mode_grab {
+    cursor: -webkit-grab;
 
 .droppable-container:first-child {
   border-left: 1px solid lightgrey;
 }
 
 .droppable-container {
-	height: inherit;
+    height: inherit;
   border-right: 1px solid lightgrey;
   margin-bottom: 20px;
 }
